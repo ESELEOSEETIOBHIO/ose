@@ -1,0 +1,301 @@
+
+body{
+
+  background-image: url("techbro.avif");
+  
+}
+header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+header h1{
+  margin-left: 40px;
+   
+  color: whitesmoke;
+
+  
+  
+  
+}
+
+
+ul {
+    list-style-type: none;
+
+  display: flex;
+  justify-content: right;
+   margin: 30px;
+   
+    
+  }
+  li{
+    display: inline;
+
+    padding: 0 10px 0 10px;
+    color: aqua;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+
+.hero{
+  height: 100vh;
+}
+
+  .service-link:hover{
+    background-color: brown;
+  }
+  .team-link:hover{
+    background-color: brown;
+  }
+  .about-link:hover{
+    background-color: brown;
+  }
+  .contact-link:hover{
+    background-color: brown;
+  }
+  .location-link:hover{
+    background-color: brown;
+  }
+  
+  
+  
+  .caf{
+    color: red;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+   margin: 150px 50px 0 50px;
+   
+   
+
+    
+    
+}
+
+  .container h1{
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .container h2{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .container p{
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .container button{
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
+    width: 150px;
+    height: 35px;
+    margin-top: 30px;
+    
+        
+  }
+  .download{
+    margin-left: 10px;
+  }
+
+  .Servicessection  {
+    display: flex;
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  .Servicessection div{
+    background-color: cadetblue;
+    margin: 0 32px;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .Teamsection {
+     display: flex;
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      color: aquamarine;
+      
+  }
+
+  .premierleague{
+
+    position: relative;
+    border: none;
+    width: 300px;
+    height: 300px;
+    margin: 0 32px;
+    
+
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: burlywood;
+
+}
+
+.premierleague:hover .overlay{
+    opacity: 1;
+}
+
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+    text-align: center;
+
+
+
+
+
+
+} 
+
+
+  
+ /* .ts1{
+  background-color: burlywood;
+  margin-right: 10px;
+  width: 20%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .ts2{
+  background-color: burlywood;
+  
+  width: 20%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .ts3{
+  background-color: burlywood;
+  margin-left: 10px;
+  width: 20%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+ /* } */
+ .Aboutsection{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: aquamarine;
+ }
+ .as1{
+  background-color: dodgerblue;
+  margin-right: 10px;
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .as2{
+  background-color:dodgerblue;
+  
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .as3{
+  background-color: dodgerblue;
+  margin-left: 10px;
+  width: 20%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .Contactsection{
+  color: aquamarine;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ }
+ .email{
+  background-color: tomato;
+  height: 150px;
+  width: 300px;
+  text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-right: 10px;
+
+ }
+ .phone{
+   background-color: tomato;
+   height: 150px;
+   width: 300px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .Locationsection{
+  display: flex;
+  color: aquamarine;
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ }
+
